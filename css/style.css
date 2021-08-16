@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.sign-in-button:hover{
+   background-color: white;
+   color:black;
+    transition: background-color .3s ease-in-out;
+}
+.hover-button{
+    background-color:white;
+    color:black;
+}
+.hover-button:hover{
+    background-color:black;
+    color:white;
+    transition: background-color .9s ease-in-out;
+}
+.common-button{
+    border:1px solid white;
+}
+.common-button:hover{
+    background-color:transparent;
+    border:1px solid black;
+    transition: border 1s ease-in-out;
+}
