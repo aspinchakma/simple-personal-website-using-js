@@ -7,7 +7,7 @@ document.getElementById('sign-in-button').addEventListener('click', function () 
     const userPass = document.getElementById('user-pass').value;
 
     if (userName === 'aspinchakma@gmail.com' && userPass === '2021') {
-        window.location.href = 'https://www.youtube.com'
+        window.location.href = 'Bankingsite.html'
     } else {
         incoorectM.style.visibility = 'visible';
     }
